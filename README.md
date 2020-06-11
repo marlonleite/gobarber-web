@@ -737,3 +737,15 @@ E na aba network do chrome eu consegui ver um status 204 da rota `appointments`,
 
 * Criamos o Header e estilizamos
 * Adicionamos uma nova logo roxa para o header
+
+## Aula 21 - Estilizando notificações
+
+* Instalamos react-icons e react-perfet-scrollbar (para fazer um scroll de notificações)
+
+```
+yarn add react-icons
+yarn add react-perfet-scrollbar
+```
+
+* Fizemos a estilização criando um componente Notifications que é usado no Header
+* Tem vários detalhes de CSS com styled-component
