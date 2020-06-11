@@ -960,3 +960,10 @@ Concluimos a parte de autenticação da aplicação fazendo o logout da aplicaç
 
 * Usamos o date-fns para fazer um cálculo para adicionar e diminuir os dias do state date que fica entre as setas.
 
+# Aula 30 - Listando agendamentos
+
+- Buscamos da API os schedules baseado no dia que o usuário está vendo no dashboard, e fizemos o controle do timezone, e montamos um array de objetos com o time, past e o appointment para exibir na tela.
+
+```
+yarn add date-fns-tz
+```
