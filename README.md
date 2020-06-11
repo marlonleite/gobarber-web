@@ -387,6 +387,16 @@ Quando dá algum erro é lançado uma mensagem de erro na tela do usuário confo
 
 Agora a mensagem aparece na tela bem mais bonita!
 
+## Aula 12 - Configurando Store do Redux
+
+A autenticação do usuário vamos fazer pelo Redux e armazenar o token e os dados do usuário logado, e acessar esses dados em vários locais.
+
+Vamos instalar todas as libs necessárias:
+```
+yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
+```
+
+
 ## Para mais detalhes veja o código.
 
 Código: [https://github.com/marlonleite/gobarber-web](https://github.com/marlonleite/gobarber-web)
