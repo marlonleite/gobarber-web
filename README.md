@@ -942,3 +942,8 @@ return (
 ```
 
 Com certeza essa foi a mais díficil de entender, devido alguns conceitos novos do useRef e a lib Unform usando useField, além de entender também os Custom Hooks.
+
+## Aula 26 - Dados do Header
+
+* Apenas peguei os dados do estado do user profile e populei no Header
+* Corrigi a imagem do header para largura a altura fixa
