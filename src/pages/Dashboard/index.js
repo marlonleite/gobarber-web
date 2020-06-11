@@ -7,7 +7,6 @@ import {
   setMinutes,
   setSeconds,
   isBefore,
-  isEqual,
   parseISO,
 } from 'date-fns';
 import pt from 'date-fns/locale/pt';
