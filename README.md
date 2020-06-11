@@ -732,3 +732,8 @@ export default function Dashboard() {
 ```
 
 E na aba network do chrome eu consegui ver um status 204 da rota `appointments`, ou seja, deu certo!
+
+## Aula 20 - Configurando o Header
+
+* Criamos o Header e estilizamos
+* Adicionamos uma nova logo roxa para o header
