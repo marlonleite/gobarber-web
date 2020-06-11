@@ -169,6 +169,34 @@ const Layout = signed ? DefaultLayout : AuthLayout;
 
 ```
 
+## Aula 07 - Estilos globais
+
+Vamos usar o `createGlobalStyle` do styled-component para gerar o estilo global da aplicação, criar `global.js` no caminho:
+
+```
+src/styles/global.js
+
+```
+
+E aplicar no App.js
+
+```
+...
+import GlobalStyle from './styles/global';
+...
+
+function App() {
+  return (
+    <Router history={history}>
+      <Routes />
+      <GlobalStyle />
+    </Router>
+  );
+}
+
+export default App;
+```
+
 ## Para mais detalhes veja o código.
 
 Código: [https://github.com/marlonleite/gobarber-web](https://github.com/marlonleite/gobarber-web)
