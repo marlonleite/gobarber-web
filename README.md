@@ -148,6 +148,27 @@ import Route from './Route';
 
 ```
 
+## Aula 06 - Layouts por página
+
+Instale o styled-components:
+
+```
+yarn add styled-components
+```
+
+No caminho `src/routes/Route.js` adicione os layouts AuthLayout e DefaultLayout:
+```
+...
+import AuthLayout from '../pages/_layouts/auth';
+import DefaultLayout from '../pages/_layouts/default';
+...
+
+...
+const Layout = signed ? DefaultLayout : AuthLayout;
+...
+
+```
+
 ## Para mais detalhes veja o código.
 
 Código: [https://github.com/marlonleite/gobarber-web](https://github.com/marlonleite/gobarber-web)
