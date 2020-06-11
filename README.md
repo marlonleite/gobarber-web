@@ -759,3 +759,8 @@ yarn add date-fns
 ```
 
 * Criei toda a lógica para exibir o bagde e as notificações conforme os dados do mongodb consultando a api na rota notifications.
+
+## Aula 23 - Página de perfil
+
+* Criei o componete Profile
+* Estilizei o componente Profile com CSS e StyledComponent
