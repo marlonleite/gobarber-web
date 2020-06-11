@@ -575,3 +575,10 @@ return  produce(state, draft  => { ... }
 * Criei mais dois cases no reducerde auth para REQUEST, SUCESSO e FAILURE.
 * No SignIn peguei usando o useSelector, o estado do loading e fiz uma condição ternária para mostrar 'Carregando...' se o loading estiver `true` e 'Acessar' quando estiver `false`.
 * No sagas eu coloquei um try/catch para capturar algum erro da API e disparar uma action de falha no signIn.
+
+## Aula 17 - Exibindo toasts
+
+* Instalei a lib: `yarn add react-toastify` para enviar mensagens para o usuarío
+* Adicionei o componente ToastContainer no `App.js` com auto fechamento de 3 segundos
+* importei o estilos do react-toastify: `import  'react-toastify/dist/ReactToastify.css';` no arquivo `global.js`
+* No saga de auth removi os `console.log` e adicionei: `toast.error('usuario nao é prestador de servico');`
