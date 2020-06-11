@@ -951,3 +951,7 @@ Com certeza essa foi a mais díficil de entender, devido alguns conceitos novos 
 # Aula 27 - Logout da Aplicação
 
 Concluimos a parte de autenticação da aplicação fazendo o logout da aplicação, quando o usuário clica no botão logout o saga houve e muda a rota do usuário para home ('/'), limpa os dados do profile e também remove o token e o signed fassa a ser false, e o usuário é direcionado para a página de login.
+
+## Aula 28 - Estilização do Dashboard
+
+* Criamos a estilização e utilizamos os componentes no Dashboard
