@@ -955,3 +955,8 @@ Concluimos a parte de autenticação da aplicação fazendo o logout da aplicaç
 ## Aula 28 - Estilização do Dashboard
 
 * Criamos a estilização e utilizamos os componentes no Dashboard
+
+## Aula 29 - Navegação entre dias
+
+* Usamos o date-fns para fazer um cálculo para adicionar e diminuir os dias do state date que fica entre as setas.
+
