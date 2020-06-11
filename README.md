@@ -111,6 +111,13 @@ E na pasta `src` vamos criar as pastas `pages`, `services` e `routes`  e um arqu
 yarn add history
 ```
 
+## Aula 04 - Configurando o Reactotron
+
+Instale o Reactotron-react.js:
+```
+yarn add reactotron-react-js
+```
+
 
 ## Para mais detalhes veja o código.
 
