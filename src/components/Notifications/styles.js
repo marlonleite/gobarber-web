@@ -26,6 +26,11 @@ export const Badge = styled.button`
         border-radius: 50%;
       }
     `}
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
 `;
 
 export const NotificationList = styled.div`
