@@ -118,6 +118,35 @@ Instale o Reactotron-react.js:
 yarn add reactotron-react-js
 ```
 
+## Aula 05 - Rotas privadas
+
+Do jeito que está a aplicação, podemos acessar todas as rotas mesmo não estando logado, agora o que iremos fazer é controlar as rotas, verificando se o usuário está logado ou não.
+
+Vamos criar um arquivo chamado `Route.js` que vai ser um wrapper do Route do react-router-dom:
+
+Vamos criar uma função RouteWrapper que recebe as props do componente que irá utilizar esse componente RouteWrapper, ele recebe a prop Component, isPrivate e o restante que tiver será passada no ...rest.
+
+Se o usuário não estiver auteticado e a rota for privada ele é redirecionado para o /.
+
+Se ele estiver logado e a rota não é privada, ele vai para o dashboard, para as demais condições ele vai para Route com o seu respectivo componente.
+
+Instale o `prop-types`:
+```
+yarn add prop-types
+```
+
+Crie um arquivo chamando `src/routes/Route.js`.
+
+E no arquivo `src/routes/index.js` substitua o Route do react-router-dom:
+
+```
+...
+import { Switch } from 'react-router-dom';
+...
+
+import Route from './Route';
+
+```
 
 ## Para mais detalhes veja o código.
 
