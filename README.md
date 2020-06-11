@@ -396,6 +396,13 @@ Vamos instalar todas as libs necessárias:
 yarn add redux redux-saga react-redux reactotron-redux reactotron-redux-saga immer
 ```
 
+## Aula 13 -Autenticação
+
+Implementação do login, porém ainda não estou salvando os dados do usuário e nem o token permanentemente em uma local, quando eu faço um refresh na página perco o store e o dados.
+
+```
+yarn add axios
+```
 
 ## Para mais detalhes veja o código.
 
