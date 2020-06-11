@@ -749,3 +749,13 @@ yarn add react-perfet-scrollbar
 
 * Fizemos a estilização criando um componente Notifications que é usado no Header
 * Tem vários detalhes de CSS com styled-component
+
+## Aula 22 - Notificações
+
+* Instalei a lib date-fns para lidar com datas no frontend
+
+```
+yarn add date-fns
+```
+
+* Criei toda a lógica para exibir o bagde e as notificações conforme os dados do mongodb consultando a api na rota notifications.
