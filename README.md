@@ -279,6 +279,16 @@ Para resolver isso criaremos um arquivo `jsconfig.json` com o seguinte conteúdo
 
 Agora ele vai entender as importações e conseguiremos navegar nos as arquivos.
 
+## Aula 09 - Estilização da página de autenticação
+
+Vamos estilizar a página de Login e cadastro da aplicação.
+
+Instalar o `polished`:
+
+```
+yarn add polished
+```
+
 ## Para mais detalhes veja o código.
 
 Código: [https://github.com/marlonleite/gobarber-web](https://github.com/marlonleite/gobarber-web)
